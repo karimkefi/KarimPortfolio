@@ -11,58 +11,60 @@ body{
 .container{
     position: relative;
     margin: 0 auto;
-    width: 90%;
+    height:400px;
+    width: 85%;
+    overflow: auto;
+    text-align: center;
+}
+
+.thinContainer{
+    position: relative;
+    margin: 0 auto;
+    height: 250px;
+    width: 85%;
     overflow: auto;
     text-align: center;
 }
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
+.headerBox{
+    position: fixed;
+    height: 140px;
+    width:100%;
+}
+
 .headerImage1{
     position: relative;
-    background: url("Img/skyBackground.jpg");
+    background: url("Img/computerNcoffee.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    min-height: 100vh;
 }
 
 .nameBox {
-    position: absolute;
-    top: 20%;
+    position: fixed;
+    text-align: center;
+    top: 20px;
     left: 50%;
-	height: 50px;
-	width: 300px;
-	transform: translate(-50%,-50%);
-	background-color: #404040;
-	font-size: 2rem;
+	height: 80px;
+	width: 500px;
+	transform: translate(-50%,50%);
+	background-color: RGBA(64,64,64,0);
+	font-size: 3rem;
 	transition-timing-function: ease;
 	transition: width 1s;
+    cursor: pointer;
 }
 
 .nameBox:hover {
-    background-color: #FFFFFF;
-	height: 50px;
-	width: 600px;
+    background-color: #1091DA;
+	width: 100%;
 	cursor: pointer;
 }
 
-.headerImage2 {
-	background: url("Img/computerNcoffee.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	height: 600px;
-}
-
-.pageTitle{
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    background-color: #7fffd4;
-}
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
 .sideNav{
@@ -72,7 +74,7 @@ body{
     height:100%;
     margin-top: 60px;
     display: inline-block;
-    background-color: #7fffd4;
+    background-color: #1091da;
     z-index: 5;
 }
 
@@ -94,7 +96,7 @@ body{
 
 .sideNavIcon:hover{
     cursor: pointer;
-    background-color: #52a589;
+    background-color: #12aaff;
 }
 
 .icon{
@@ -104,24 +106,47 @@ body{
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
 .codingLanguages{
+    margin: 0 auto;
     position: relative;
-    top: 100px;
-    display: inline;
+    top: 250px;
+    display: block;
     width: 100%;
-    height: 200px;
-    padding-top: 200px;
+    height: 120px;
     overflow: auto;
+}
+
+.hiddenIcon{
+    visibility: hidden;
 }
 
 .codingIcon{
     float: left;
     display:inline-block;
+    width: 20%;
 }
+
+.codingIcon:hover{
+    visibility: visible;
+}
+
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
 .homepageText{
     background-color: #ff7f50;
+    font-size: 1.2rem;
 }
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
+
+.headerImage2 {
+    background: url("Img/skyBackground.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
@@ -129,9 +154,9 @@ body{
     position: fixed;
     bottom: 0px;
     width: 100%;
-    height: 100px;
-    display: inline-block;
+    height: 50px;
+    margin: 0 auto;
     color: #FFFFFF;
-    background-color: #2e5d4d;
+    background-color: #052f47;
 }
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
