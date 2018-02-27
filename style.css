@@ -1,14 +1,14 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     font-size: 16px;
     font-family: Helvetica, sans-serif;
 }
 
-.topContainer{
+.topContainer {
     position: relative;
     margin: 0 auto;
     margin-top: 100px;
@@ -18,7 +18,7 @@ body{
     text-align: center;
 }
 
-.container{
+.container {
     position: relative;
     margin: 0 auto;
     padding-top: 50px;
@@ -28,7 +28,7 @@ body{
     text-align: center;
 }
 
-.breatherContainer{
+.breatherContainer {
     position: relative;
     margin: 0 auto;
     height: 350px;
@@ -37,7 +37,7 @@ body{
     text-align: center;
 }
 
-.bottomContainer{
+.bottomContainer {
     position: relative;
     margin: 0 auto;
     height: 250px;
@@ -48,13 +48,13 @@ body{
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
-.headerBox{
+.headerBox {
     position: fixed;
     height: 140px;
     width:100%;
 }
 
-.nameBox {
+header {
     text-align: center;
     top: 20px;
 	height: 80px;
@@ -66,7 +66,7 @@ body{
     cursor: pointer;
 }
 
-.nameBox:hover {
+header:hover {
     background-color: #1091DA;
 	width: 100%;
 	cursor: pointer;
@@ -74,7 +74,7 @@ body{
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
-.sideNav{
+aside {
     position: fixed;
     right: 0px;
     width: 90px;
@@ -84,13 +84,13 @@ body{
     z-index: 5;
 }
 
-.sideNavList{
+.sideNavList {
     padding: 0px;
     margin-top: 20px;
     float: left;
 }
 
-.sideNavIcon{
+.sideNavIcon {
     width: 50px;
     height: 50px;
     border: 1px solid black;
@@ -100,18 +100,18 @@ body{
     margin-left: 20px;
 }
 
-.sideNavIcon:hover{
+.sideNavIcon:hover {
     cursor: pointer;
     background-color: #12aaff;
 }
 
-.icon{
+.icon {
     transform: translate(25%,25%);
 }
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
-.codingLanguages{
+.codingLanguages {
     margin: 0 auto;
     position: relative;
     top: 50px;
@@ -121,7 +121,7 @@ body{
     overflow: auto;
 }
 
-.codingIcon{
+.codingIcon {
     float: left;
     display:inline-block;
     width: 20%;
@@ -129,14 +129,14 @@ body{
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
-.homepageText{
+.homepageText {
     background-color: #0f5285;
     font-size: 1.2rem;
 }
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
-.headerImage1{
+.headerImage1 {
     position: relative;
     background: url("Img/computerNcoffee.jpg");
     background-attachment: fixed;
@@ -166,13 +166,13 @@ body{
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
-.articleBox{
+.articleBox {
     border: 1px solid red;
     overflow: auto;
     height: 200px;
 }
 
-.articleBox img{
+.articleBox img {
     height: 160px;
     width: 320px;
     float: left;
@@ -190,9 +190,10 @@ body{
     text-align: left;
     background-color: RGBA(202,223,255,0.5);
 }
+
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
-.footer{
+.footer {
     position: relative;
     width: 100%;
     height: 250px;
@@ -201,14 +202,14 @@ body{
     background-color: #052f47;
 }
 
-.footerBox{
+.footerBox {
     height: 160px;
     margin: 15px;
     width: 30%;
     float: left;
 }
 
-.footerIcon{
+.footerIcon {
     display: inline-block;
     margin: 0 auto;
     float: left;
