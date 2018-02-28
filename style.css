@@ -5,7 +5,7 @@
 body {
     margin: 0;
     font-size: 16px;
-    font-family: Helvetica, sans-serif;
+    font-family: Courier, sans-serif;
 }
 
 .topContainer {
@@ -37,6 +37,12 @@ body {
     text-align: center;
 }
 
+.breatherContainer p,
+.breatherContainer h1 {
+    margin: 20px;
+    width: 90%;
+}
+
 .bottomContainer {
     position: relative;
     margin: 0 auto;
@@ -58,7 +64,7 @@ header {
     text-align: center;
     top: 20px;
 	height: 80px;
-	width: 500px;
+	width: 600px;
 	background-color: RGBA(64,64,64,0);
 	font-size: 3rem;
 	transition-timing-function: ease;
@@ -94,15 +100,18 @@ aside {
     width: 50px;
     height: 50px;
     border: 1px solid black;
-    border-radius: 50%;
+    border-radius: 35%;
     list-style-type: none;
     margin-top: 100px;
     margin-left: 20px;
+    transition-timing-function: ease;
+    transition: height 1s;
 }
 
 .sideNavIcon:hover {
     cursor: pointer;
     background-color: #12aaff;
+    height: 100px;
 }
 
 .icon {
@@ -127,9 +136,14 @@ aside {
     width: 20%;
 }
 
+.codingIcon:active {
+    visibility: hidden;
+}
+
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
 .homepageText {
+    color: #FFFFFF;
     background-color: #0f5285;
     font-size: 1.2rem;
 }
@@ -189,6 +203,9 @@ aside {
     margin: 10px;
     text-align: left;
     background-color: RGBA(202,223,255,0.5);
+    border-radius: 20px;
+    font-size: 1.1rem;
+    padding: 10px;
 }
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
