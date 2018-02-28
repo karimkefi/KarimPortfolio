@@ -28,17 +28,17 @@ body {
     text-align: center;
 }
 
-.breatherContainer {
+.breatherContainerLarge {
     position: relative;
     margin: 0 auto;
-    height: 350px;
+    height: 280px;
     width: 100%;
     overflow: auto;
     text-align: center;
 }
 
-.breatherContainer p,
-.breatherContainer h1 {
+.breatherContainerLarge p,
+.breatherContainerLarge h1 {
     margin: 20px;
     width: 90%;
 }
@@ -120,7 +120,7 @@ aside {
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
-.codingLanguages {
+.codingLanguagesLarge {
     margin: 0 auto;
     position: relative;
     top: 50px;
@@ -130,10 +130,11 @@ aside {
     overflow: auto;
 }
 
-.codingIcon {
+.codingIconLarge {
     float: left;
     display:inline-block;
     width: 20%;
+    height:100px;
 }
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
@@ -176,13 +177,14 @@ aside {
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
-.articleBox {
+.articleBoxLarge {
     border: 1px solid red;
     overflow: auto;
     height: 200px;
+    margin:0 auto;
 }
 
-.articleBox img {
+.articleBoxLarge img {
     height: 160px;
     width: 320px;
     float: left;
@@ -190,9 +192,9 @@ aside {
     padding: 0 15px;
 }
 
-.articleBox p {
+.articleBoxLarge p {
     display: inline-block;
-    float: right;
+    float: left;
     border: 1px solid green;
     height: 90%;
     width: 60%;
@@ -215,7 +217,7 @@ aside {
     background-color: #052f47;
 }
 
-.footerBox {
+.footerBoxLarge {
     height: 160px;
     margin: 15px;
     width: 30%;
@@ -231,4 +233,84 @@ aside {
     list-style-type: none;
 }
 
-/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxx MEDIA QUERIES (MEDIUM) xxxxxxxxxxxxxxxxxxxxxxx  */
+
+@media screen and (max-width: 1140px) {
+
+    .codingLanguagesMedium {
+        width: 100%;
+        height: 240px;
+    }
+
+    .codingIconMedium {
+        width: 33%;
+        height:100px;
+    }
+
+    .breatherContainerMedium {
+        height: 175px;
+        }
+
+    .breatherContainerMedium p,
+    .breatherContainerMedium h1 {
+        margin: 20px;
+        width: 650px;
+    }
+
+    .breatherContainerMedium p {
+         font-size: 1rem;
+    }
+
+    .articleBoxMedium p {
+        width: 275px;
+        font-size: 0.9rem;
+        float: left;
+    }
+
+    .articleBoxMedium img {
+        padding: 0px;
+        width: 280px;
+    }
+
+    .footerBoxMedium {
+        margin: 5px;
+    }
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxx MEDIA QUERIES (SMALL) xxxxxxxxxxxxxxxxxxxxxx  */
+
+@media screen and (max-width: 775px) {
+
+    header {
+        font-size: 1.8rem;
+    }
+
+    .breatherContainerSmall p,
+    .breatherContainerSmall h1 {
+        margin: 20px;
+        width: 500px;
+    }
+
+    .breatherContainerSmall h1 {
+        font-size: 1.2rem;
+    }
+
+    .breatherContainerSmall p {
+        font-size: 0.8rem;
+    }
+
+    .articleBoxSmall p {
+        display: none;
+    }
+
+    .footerBoxSmall {
+        margin: 5px;
+        font-size: 0.8rem;
+    }
+
+    .footerBoxSmall img{
+        height: 60px;
+        width: 60px;
+    }
+
+}
