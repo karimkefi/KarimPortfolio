@@ -28,7 +28,7 @@ body {
     text-align: center;
 }
 
-.breatherContainer {
+.breatherContainerLarge {
     position: relative;
     margin: 0 auto;
     height: 350px;
@@ -37,8 +37,8 @@ body {
     text-align: center;
 }
 
-.breatherContainer p,
-.breatherContainer h1 {
+.breatherContainerLarge p,
+.breatherContainerLarge h1 {
     margin: 20px;
     width: 90%;
 }
@@ -120,7 +120,7 @@ aside {
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
-.codingLanguages {
+.codingLanguagesLarge {
     margin: 0 auto;
     position: relative;
     top: 50px;
@@ -130,10 +130,11 @@ aside {
     overflow: auto;
 }
 
-.codingIcon {
+.codingIconLarge {
     float: left;
     display:inline-block;
     width: 20%;
+    height:100px;
 }
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
@@ -215,7 +216,7 @@ aside {
     background-color: #052f47;
 }
 
-.footerBox {
+.footerBoxLarge {
     height: 160px;
     margin: 15px;
     width: 30%;
@@ -231,4 +232,69 @@ aside {
     list-style-type: none;
 }
 
-/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxx MEDIA QUERIES (MEDIUM) xxxxxxxxxxxxxxxxxxxxxxx  */
+
+@media screen and (max-width: 1140px) {
+
+    .codingLanguagesMedium {
+        width: 100%;
+        height: 240px;
+    }
+
+    .codingIconMedium {
+        width: 33%;
+        height:100px;
+    }
+
+    .breatherContainerMedium {
+        height: 175px;
+        }
+
+    .breatherContainerMedium p,
+    .breatherContainerMedium h1 {
+        margin: 20px;
+        width: 650px;
+    }
+
+    .breatherContainerMedium p {
+         font-size: 1rem;
+    }
+
+    .footerBoxMedium {
+        margin:5px;
+    }
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxx MEDIA QUERIES (SMALL) xxxxxxxxxxxxxxxxxxxxxx  */
+
+@media screen and (max-width: 775px) {
+
+    header {
+        font-size: 1.8rem;
+    }
+
+    .breatherContainerSmall p,
+    .breatherContainerSmall h1 {
+        margin: 20px;
+        width: 500px;
+    }
+
+    .breatherContainerSmall h1 {
+        font-size: 1.2rem;
+    }
+
+    .breatherContainerSmall p {
+        font-size: 0.8rem;
+    }
+
+    .footerBoxSmall {
+        margin:5px;
+        font-size: 0.8rem;
+    }
+
+    .footerBoxSmall img{
+        height: 60px;
+        width: 60px;
+    }
+
+}
