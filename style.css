@@ -273,7 +273,7 @@ aside {
     }
 
     .footerBoxMedium {
-        margin:5px;
+        margin: 5px;
     }
 }
 
@@ -300,11 +300,11 @@ aside {
     }
 
     .articleBoxSmall p {
-        visibility: hidden
+        display: none;
     }
 
     .footerBoxSmall {
-        margin:5px;
+        margin: 5px;
         font-size: 0.8rem;
     }
 
