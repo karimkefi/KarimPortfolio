@@ -31,7 +31,7 @@ body {
 .breatherContainerLarge {
     position: relative;
     margin: 0 auto;
-    height: 350px;
+    height: 280px;
     width: 100%;
     overflow: auto;
     text-align: center;
@@ -177,13 +177,14 @@ aside {
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
-.articleBox {
+.articleBoxLarge {
     border: 1px solid red;
     overflow: auto;
     height: 200px;
+    margin:0 auto;
 }
 
-.articleBox img {
+.articleBoxLarge img {
     height: 160px;
     width: 320px;
     float: left;
@@ -191,9 +192,9 @@ aside {
     padding: 0 15px;
 }
 
-.articleBox p {
+.articleBoxLarge p {
     display: inline-block;
-    float: right;
+    float: left;
     border: 1px solid green;
     height: 90%;
     width: 60%;
@@ -260,6 +261,17 @@ aside {
          font-size: 1rem;
     }
 
+    .articleBoxMedium p {
+        width: 275px;
+        font-size: 0.9rem;
+        float: left;
+    }
+
+    .articleBoxMedium img {
+        padding: 0px;
+        width: 280px;
+    }
+
     .footerBoxMedium {
         margin:5px;
     }
@@ -285,6 +297,10 @@ aside {
 
     .breatherContainerSmall p {
         font-size: 0.8rem;
+    }
+
+    .articleBoxSmall p {
+        visibility: hidden
     }
 
     .footerBoxSmall {
