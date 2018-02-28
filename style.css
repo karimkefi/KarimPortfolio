@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: Courier, sans-serif;
+}
+
+.topContainer {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 650px;
+    width: 85%;
+    overflow: auto;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 650px;
+    width: 85%;
+    overflow: auto;
+    text-align: center;
+}
+
+.breatherContainer {
+    position: relative;
+    margin: 0 auto;
+    height: 350px;
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+}
+
+.breatherContainer p,
+.breatherContainer h1 {
+    margin: 20px;
+    width: 90%;
+}
+
+.bottomContainer {
+    position: relative;
+    margin: 0 auto;
+    height: 250px;
+    width: 85%;
+    overflow: auto;
+    text-align: center;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
+
+.headerBox {
+    position: fixed;
+    height: 140px;
+    width:100%;
+}
+
+header {
+    text-align: center;
+    top: 20px;
+	height: 80px;
+	width: 600px;
+	background-color: RGBA(64,64,64,0);
+	font-size: 3rem;
+	transition-timing-function: ease;
+	transition: width 1s;
+    cursor: pointer;
+}
+
+header:hover {
+    background-color: #1091DA;
+	width: 100%;
+	cursor: pointer;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
+
+aside {
+    position: fixed;
+    right: 0px;
+    width: 90px;
+    height:100%;
+    display: inline-block;
+    background-color: #1091da;
+    z-index: 5;
+}
+
+.sideNavList {
+    padding: 0px;
+    margin-top: 20px;
+    float: left;
+}
+
+.sideNavIcon {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 35%;
+    list-style-type: none;
+    margin-top: 100px;
+    margin-left: 20px;
+    transition-timing-function: ease;
+    transition: height 1s;
+}
+
+.sideNavIcon:hover {
+    cursor: pointer;
+    background-color: #12aaff;
+    height: 100px;
+}
+
+.icon {
+    transform: translate(25%,25%);
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
+
+.codingLanguages {
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    display: block;
+    width: 100%;
+    height: 120px;
+    overflow: auto;
+}
+
+.codingIcon {
+    float: left;
+    display:inline-block;
+    width: 20%;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
+
+.homepageText {
+    color: #FFFFFF;
+    background-color: #0f5285;
+    font-size: 1.2rem;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
+
+.headerImage1 {
+    position: relative;
+    background: url("Img/computerNcoffee.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+}
+
+.headerImage2 {
+    background: url("Img/skyBackground.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+}
+
+.headerImage3 {
+    background: url("Img/leaves.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
+
+.articleBox {
+    border: 1px solid red;
+    overflow: auto;
+    height: 200px;
+}
+
+.articleBox img {
+    height: 160px;
+    width: 320px;
+    float: left;
+    margin: 15px;
+    padding: 0 15px;
+}
+
+.articleBox p {
+    display: inline-block;
+    float: right;
+    border: 1px solid green;
+    height: 90%;
+    width: 60%;
+    margin: 10px;
+    text-align: left;
+    background-color: RGBA(202,223,255,0.5);
+    border-radius: 20px;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    background-color: #052f47;
+}
+
+.footerBox {
+    height: 160px;
+    margin: 15px;
+    width: 30%;
+    float: left;
+}
+
+.footerIcon {
+    display: inline-block;
+    margin: 0 auto;
+    float: left;
+    width: 30%x;
+    height: 120px;
+    list-style-type: none;
+}
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
