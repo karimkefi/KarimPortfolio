@@ -178,7 +178,6 @@ aside {
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
 .articleBoxLarge {
-    border: 1px solid red;
     overflow: auto;
     height: 200px;
     margin:0 auto;
@@ -195,14 +194,13 @@ aside {
 .articleBoxLarge p {
     display: inline-block;
     float: left;
-    border: 1px solid green;
     height: 90%;
     width: 60%;
     margin: 10px;
     text-align: left;
-    background-color: RGBA(202,223,255,0.5);
+    background-color: RGBA(202,223,255,0.7);
     border-radius: 20px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: 10px;
 }
 
@@ -263,7 +261,7 @@ aside {
 
     .articleBoxMedium p {
         width: 275px;
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         float: left;
     }
 
