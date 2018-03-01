@@ -129,7 +129,7 @@ nav {
 
 /* xxxxxxxxxxxxxxxxxxxxx CODING LANGUAGES SECTION xxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
-.codingLanguagesLarge {
+.codingLanguages {
     margin: 0 auto;
     position: relative;
     top: 50px;
@@ -139,7 +139,7 @@ nav {
     overflow: auto;
 }
 
-.codingIconLarge {
+.codingIcon5 {
     float: left;
     display:inline-block;
     width: 20%;
@@ -236,12 +236,12 @@ nav {
 
 @media screen and (max-width: 1140px) {
 
-    .codingLanguagesMedium {
+    .codingLanguages {
         width: 100%;
         height: 240px;
     }
 
-    .codingIconMedium {
+    .codingIcon3 {
         width: 33%;
         height: 100px;
     }
