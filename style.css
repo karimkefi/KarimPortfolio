@@ -8,6 +8,8 @@ body {
     font-family: Courier, sans-serif;
 }
 
+/* xxxxxxxxxxxxxxxxxxxxx CONTAINERS xxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
+
 .topContainer {
     position: relative;
     margin: 0 auto;
@@ -43,6 +45,13 @@ body {
     width: 90%;
 }
 
+.breatherText {
+    color: #FFFFFF;
+    background-color: #0F5285;
+    font-size: 1.2rem;
+}
+
+
 .bottomContainer {
     position: relative;
     margin: 0 auto;
@@ -52,12 +61,12 @@ body {
     text-align: center;
 }
 
-/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
+/* xxxxxxxxxxxxxxxxxxxxx HEADER xxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
 .headerBox {
     position: fixed;
     height: 140px;
-    width:100%;
+    width: 100%;
 }
 
 header {
@@ -78,20 +87,20 @@ header:hover {
 	cursor: pointer;
 }
 
-/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
+/* xxxxxxxxxxxxxxxxxxxxx SIDE NAV xxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
-aside {
+nav {
     position: fixed;
-    right: 0px;
+    right: 0;
     width: 90px;
     height:100%;
     display: inline-block;
-    background-color: #1091da;
+    background-color: #1091DA;
     z-index: 5;
 }
 
 .sideNavList {
-    padding: 0px;
+    padding: 0;
     margin-top: 20px;
     float: left;
 }
@@ -99,7 +108,7 @@ aside {
 .sideNavIcon {
     width: 50px;
     height: 50px;
-    border: 1px solid black;
+    border: 1px #000000;
     border-radius: 35%;
     list-style-type: none;
     margin-top: 100px;
@@ -110,7 +119,7 @@ aside {
 
 .sideNavIcon:hover {
     cursor: pointer;
-    background-color: #12aaff;
+    background-color: #12AAFF;
     height: 100px;
 }
 
@@ -118,7 +127,7 @@ aside {
     transform: translate(25%,25%);
 }
 
-/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
+/* xxxxxxxxxxxxxxxxxxxxx CODING LANGUAGES SECTION xxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
 .codingLanguagesLarge {
     margin: 0 auto;
@@ -137,17 +146,9 @@ aside {
     height:100px;
 }
 
-/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
+/* xxxxxxxxxxxxxxxxxxxxx BACKGROUND IMAGES xxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
-.homepageText {
-    color: #FFFFFF;
-    background-color: #0f5285;
-    font-size: 1.2rem;
-}
-
-/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
-
-.headerImage1 {
+.backgroundImage1 {
     position: relative;
     background: url("Img/computerNcoffee.jpg");
     background-attachment: fixed;
@@ -157,7 +158,7 @@ aside {
     min-height: 70vh;
 }
 
-.headerImage2 {
+.backgroundImage2 {
     background: url("Img/skyBackground.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -166,7 +167,7 @@ aside {
     min-height: 70vh;
 }
 
-.headerImage3 {
+.backgroundImage3 {
     background: url("Img/leaves.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -175,12 +176,12 @@ aside {
     min-height: 70vh;
 }
 
-/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
+/* xxxxxxxxxxxxxxxxxxxxx ARTICLE xxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
 .articleBoxLarge {
     overflow: auto;
     height: 200px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .articleBoxLarge img {
@@ -204,7 +205,7 @@ aside {
     padding: 10px;
 }
 
-/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
+/* xxxxxxxxxxxxxxxxxxxxx FOOTER xxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
 .footer {
     position: relative;
@@ -212,7 +213,7 @@ aside {
     height: 250px;
     margin: 0 auto;
     color: #FFFFFF;
-    background-color: #052f47;
+    background-color: #052F47;
 }
 
 .footerBoxLarge {
@@ -242,7 +243,7 @@ aside {
 
     .codingIconMedium {
         width: 33%;
-        height:100px;
+        height: 100px;
     }
 
     .breatherContainerMedium {
@@ -266,7 +267,7 @@ aside {
     }
 
     .articleBoxMedium img {
-        padding: 0px;
+        padding: 0;
         width: 280px;
     }
 
