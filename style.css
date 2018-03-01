@@ -22,10 +22,13 @@ body {
 
 .topContainer {
     margin-top: 100px;
+    margin-right: 75px;
 }
 
 .bottomContainer {
     height: 250px;
+    padding-left: 0;
+    margin-right: 65px;
 }
 
 .breatherContainer {
@@ -41,7 +44,7 @@ body {
 .breatherContainer h1 {
     margin: 20px;
     width: 95%;
-    padding-right: 90px;
+    padding-right: 100px;
 }
 
 .breatherText {
@@ -62,12 +65,13 @@ header {
     text-align: center;
     top: 20px;
 	height: 80px;
-	width: 600px;
+	width: 90%;
 	background-color: RGBA(64,64,64,0);
 	font-size: 3rem;
 	transition-timing-function: ease;
 	transition: width 1s;
     cursor: pointer;
+    padding-right: 90px;
 }
 
 header:hover {
@@ -230,7 +234,7 @@ nav {
     .breatherContainer p,
     .breatherContainer h1 {
         margin: 20px;
-        width: 650px;
+        /*width: 650px;*/
     }
 
     .breatherContainer p {
@@ -281,12 +285,22 @@ nav {
 
     .footerBox {
         margin: 5px;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .footerBox img{
         height: 60px;
         width: 60px;
+        float: none;
     }
 
 }
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxx MEDIA QUERIES (X-SMALL) xxxxxxxxxxxxxxxxxxxxxx  */
+
+@media screen and (max-width: 500px) {
+
+    header {
+        font-size: 1.2rem;
+    }
+
