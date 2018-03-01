@@ -40,7 +40,8 @@ body {
 .breatherContainer p,
 .breatherContainer h1 {
     margin: 20px;
-    width: 90%;
+    width: 95%;
+    padding-right: 90px;
 }
 
 .breatherText {
@@ -202,9 +203,8 @@ nav {
 }
 
 .footerIcon {
-    margin: 0 auto;
     float: left;
-    width: 80%;
+    width: 30%;
     height: 120px;
     list-style-type: none;
 }
