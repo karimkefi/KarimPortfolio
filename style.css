@@ -10,16 +10,6 @@ body {
 
 /* xxxxxxxxxxxxxxxxxxxxx CONTAINERS xxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
-.topContainer {
-    position: relative;
-    margin: 0 auto;
-    margin-top: 100px;
-    height: 650px;
-    width: 85%;
-    overflow: auto;
-    text-align: center;
-}
-
 .container {
     position: relative;
     margin: 0 auto;
@@ -28,6 +18,14 @@ body {
     width: 85%;
     overflow: auto;
     text-align: center;
+}
+
+.topContainer {
+    margin-top: 100px;
+}
+
+.bottomContainer {
+    height: 250px;
 }
 
 .breatherContainer {
@@ -49,16 +47,6 @@ body {
     color: #FFFFFF;
     background-color: #0F5285;
     font-size: 1.2rem;
-}
-
-
-.bottomContainer {
-    position: relative;
-    margin: 0 auto;
-    height: 250px;
-    width: 85%;
-    overflow: auto;
-    text-align: center;
 }
 
 /* xxxxxxxxxxxxxxxxxxxxx HEADER xxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
@@ -93,8 +81,7 @@ nav {
     position: fixed;
     right: 0;
     width: 90px;
-    height:100%;
-    display: inline-block;
+    height: 100%;
     background-color: #1091DA;
     z-index: 5;
 }
@@ -142,32 +129,25 @@ nav {
 .codingIcon5 {
     float: left;
     width: 20%;
-    height:100px;
+    height: 100px;
 }
 
 /* xxxxxxxxxxxxxxxxxxxxx BACKGROUND IMAGES xxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
-.backgroundImage1 {
-    position: relative;
+.homeImage {
     background: url("Img/computerNcoffee.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 70vh;
 }
 
-.backgroundImage2 {
+.aboutmeImage {
     background: url("Img/skyBackground.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 70vh;
 }
 
-.backgroundImage3 {
+.portfolioImage {
     background: url("Img/leaves.jpg");
+}
+
+.backgroundImage {
+    position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -192,7 +172,6 @@ nav {
 }
 
 .articleBox p {
-    display: inline-block;
     float: left;
     height: 90%;
     width: 60%;
@@ -223,10 +202,9 @@ nav {
 }
 
 .footerIcon {
-    display: inline-block;
     margin: 0 auto;
     float: left;
-    width: 30%;
+    width: 80%;
     height: 120px;
     list-style-type: none;
 }
@@ -260,8 +238,8 @@ nav {
     }
 
     .articleBox p {
-        width: 275px;
-        font-size: 0.7rem;
+        width: 375px;
+        font-size: 0.85rem;
         float: left;
     }
 
