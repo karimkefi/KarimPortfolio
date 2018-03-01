@@ -30,7 +30,7 @@ body {
     text-align: center;
 }
 
-.breatherContainerLarge {
+.breatherContainer {
     position: relative;
     margin: 0 auto;
     height: 280px;
@@ -39,8 +39,8 @@ body {
     text-align: center;
 }
 
-.breatherContainerLarge p,
-.breatherContainerLarge h1 {
+.breatherContainer p,
+.breatherContainer h1 {
     margin: 20px;
     width: 90%;
 }
@@ -178,13 +178,13 @@ nav {
 
 /* xxxxxxxxxxxxxxxxxxxxx ARTICLE xxxxxxxxxxxxxxxxxxxxxxxxxxxx  */
 
-.articleBoxLarge {
+.articleBox {
     overflow: auto;
     height: 200px;
     margin: 0 auto;
 }
 
-.articleBoxLarge img {
+.articleBox img {
     height: 160px;
     width: 320px;
     float: left;
@@ -192,7 +192,7 @@ nav {
     padding: 0 15px;
 }
 
-.articleBoxLarge p {
+.articleBox p {
     display: inline-block;
     float: left;
     height: 90%;
@@ -246,27 +246,27 @@ nav {
         height: 100px;
     }
 
-    .breatherContainerMedium {
+    .breatherContainer {
         height: 175px;
         }
 
-    .breatherContainerMedium p,
-    .breatherContainerMedium h1 {
+    .breatherContainer p,
+    .breatherContainer h1 {
         margin: 20px;
         width: 650px;
     }
 
-    .breatherContainerMedium p {
+    .breatherContainer p {
          font-size: 1rem;
     }
 
-    .articleBoxMedium p {
+    .articleBox p {
         width: 275px;
         font-size: 0.7rem;
         float: left;
     }
 
-    .articleBoxMedium img {
+    .articleBox img {
         padding: 0;
         width: 280px;
     }
@@ -284,21 +284,21 @@ nav {
         font-size: 1.8rem;
     }
 
-    .breatherContainerSmall p,
-    .breatherContainerSmall h1 {
+    .breatherContainer p,
+    .breatherContainer h1 {
         margin: 20px;
         width: 500px;
     }
 
-    .breatherContainerSmall h1 {
+    .breatherContainer h1 {
         font-size: 1.2rem;
     }
 
-    .breatherContainerSmall p {
+    .breatherContainer p {
         font-size: 0.8rem;
     }
 
-    .articleBoxSmall p {
+    .articleBox p {
         display: none;
     }
 
